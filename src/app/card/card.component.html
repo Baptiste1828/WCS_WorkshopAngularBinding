@@ -1,0 +1,9 @@
+<div class="card">
+    <img [src]="user.image" alt="image test" (click)="sayHello()">
+    <h2>Hello {{user.name}}</h2>
+    <p>Age: {{user.age}}</p>
+    <p>Citation :</p>
+    <input [(ngModel)]="user.citation">
+    <p>{{user.citation}}</p>
+</div>
+
